@@ -119,13 +119,31 @@ button:focus {
 }
 
 footer {
-  background-color: #1f2151;
-  padding: 1.5rem; /* Reduzido o padding para telas menores */
-  max-height: 196px;
-  text-align: center;
-  display: none;
-  overflow-y: scroll;
-  width: 100%; /* Garante que o footer ocupe toda a largura disponível */
+  background-color: #1f2151; /* Cor de fundo do footer */
+  padding: 1.5rem; /* Espaçamento interno */
+  text-align: center; /* Centraliza o conteúdo */
+  margin-top: 2rem; /* Espaçamento acima do footer */
+  border-radius: 1rem; /* Bordas arredondadas */
+  width: 100%; /* Ocupa toda a largura disponível */
+  max-width: 480px; /* Limita a largura máxima para telas maiores */
+}
+
+footer span {
+  color: #7d8dec; /* Cor do texto da descrição */
+  font-size: 1rem; /* Tamanho da fonte */
+  font-family: "IBM Plex Mono", monospace; /* Fonte monoespaçada */
+  margin-bottom: 0.5rem; /* Espaçamento abaixo da descrição */
+  line-height: 1.25rem; /* Altura da linha */
+  display: block; /* Garante que o span ocupe toda a largura */
+}
+
+footer h1 {
+  color: #f1f2f6; /* Cor do texto do resultado */
+  font-weight: 700; /* Peso da fonte */
+  font-size: 1.5rem; /* Tamanho da fonte */
+  line-height: 2rem; /* Altura da linha */
+  word-break: break-all; /* Quebra de palavra para evitar overflow */
+  margin: 0; /* Remove margens padrão */
 }
 
 .show-result {
@@ -167,8 +185,13 @@ footer h1 {
     margin-top: 1.5rem; /* Reduz o margin-top para telas menores */
   }
 
+  footer {
+    padding: 1rem; /* Reduz o padding para telas menores */
+    margin-top: 1rem; /* Reduz o espaçamento acima do footer */
+  }
+
   footer h1 {
-    font-size: 1.25rem; /* Reduz o font-size para telas menores */
-    line-height: 1.75rem; /* Reduz o line-height para telas menores */
+    font-size: 1.25rem; /* Reduz o tamanho da fonte para telas menores */
+    line-height: 1.75rem; /* Reduz a altura da linha para telas menores */
   }
 }

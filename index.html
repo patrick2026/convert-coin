@@ -20,25 +20,28 @@
     <img src="./img/logo.svg" alt="Convert logo" />
 
     <main>
-      <form>
-        <label for="amount">valor</label>
+      <form id="converter-form">
+        <label for="amount">Valor da Compra</label>
         <input type="text" name="amount" id="amount" placeholder="0" required />
-
-        <label for="currency">moeda</label>
+      
+        <label for="currency">Moeda Desejada</label>
         <select name="currency" id="currency" required>
           <option value="" disabled selected hidden>Selecione a moeda</option>
           <option value="USD">Dólar Americano</option>
           <option value="EUR">Euro</option>
           <option value="GBP">Libra Esterlina</option>
         </select>
-
+      
         <button type="submit">Converter em reais</button>
       </form>
 
       <footer>
-        <span id="description">US$ 1 = R$ 4,86</span>
-        <h1 id="result">486,00 Reais</h1>
+        <span id="description"></span> <!-- Exibe a taxa de câmbio (ex: 1 USD = R$ 4,86) -->
+        <h1 id="result"></h1> <!-- Exibe o valor convertido (ex: 486,00 Reais) -->
+      </footer>
       </footer>
     </main>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
