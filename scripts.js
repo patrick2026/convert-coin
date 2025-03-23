@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   elements.resultDiv.style.cssText = `
       margin-top: 1rem;
       text-align: center;
+       justify-content: center;
       color: #f1f2f6;
       font-size: 1.25rem;
   `;
