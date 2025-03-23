@@ -1,6 +1,6 @@
 # 💰 Conversor de Moedas Internacional 🌍
 
-
+Abra o projeto https://patrick2026.github.io/convert-coin/
 
 Um conversor de moedas moderno e responsivo para **Dólar (USD)**, **Euro (EUR)** e **Libra Esterlina (GBP)**. Desenvolvido com as melhores práticas web!
 
